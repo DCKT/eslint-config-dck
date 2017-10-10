@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-dck",
+  "version": "1.0.0",
+  "description": "standard - flowtype",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DCKT/eslint-config-dck.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Thomas Deconinck",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/DCKT/eslint-config-dck/issues"
+  },
+  "homepage": "https://github.com/DCKT/eslint-config-dck#readme"
+}
