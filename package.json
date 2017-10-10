@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/DCKT/eslint-config-dck.git"
   },
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "Thomas Deconinck",
   "license": "Apache-2.0",
   "bugs": {
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/DCKT/eslint-config-dck#readme",
   "dependencies": {
+    "babel-eslint": "^8.0.1",
     "eslint": "^4.8.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-flowtype": "^2.39.1",
