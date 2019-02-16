@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/DCKT/eslint-config-dck.git"
   },
-  "keywords": ["eslint"],
+  "keywords": [
+    "eslint"
+  ],
   "author": "Thomas Deconinck",
   "license": "Apache-2.0",
   "bugs": {
@@ -28,5 +30,8 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-react": "^7.4.0",
     "eslint-plugin-standard": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^1.0.2"
   }
 }

@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["standard", "standard-react", "plugin:flowtype/recommended"],
-  plugins: ["flowtype"],
+  plugins: ["flowtype", "react-hooks"],
   env: {
     browser: true,
     commonjs: true,
@@ -12,6 +12,7 @@ module.exports = {
     camelcase: "off",
     "max-len": ["error", { code: 120 }],
     semi: ["error", "never"],
-    quotes: ["error", "single"]
+    quotes: ["error", "single"],
+    "react-hooks/rules-of-hooks": "error"
   }
 }
